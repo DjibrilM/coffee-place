@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 ### `npm start` for startting the project locally 
  
-### or use the following link for testing the deployed version  [Link](https://github.com/facebook/create-react-app).
+### Or use the following link for testing the deployed version  [here](https://github.com/facebook/create-react-app).
