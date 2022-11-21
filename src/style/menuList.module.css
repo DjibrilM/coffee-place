@@ -55,8 +55,7 @@
 }
 
 @media(max-width:814px){
+.MenuTable {
     width: 100%;
-    margin: auto;
-    margin-top: 50px;
-    font-family: 'Sanchez', serif;
+}
 }
