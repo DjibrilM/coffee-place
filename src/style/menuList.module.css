@@ -1,5 +1,4 @@
 .MenuTable {
-    max-width: 100%;
     width: 1000px;
     margin: auto;
     margin-top: 50px;
@@ -50,5 +49,10 @@
 @media(max-width:550px){
     .title{
         padding: 10px;
-    }
+    },:{
+        
+    .MenuTable:{
+        width:100%;
+        }
+        
 }
