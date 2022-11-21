@@ -1,0 +1,171 @@
+.footer {
+    width: 100%;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url("../assets//images/1320960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.partenerIcons {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.icon {
+    font-size: 35px;
+    margin: 0px 30px;
+    color: #777;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #000;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.emailArrow {
+    color: aliceblue;
+}
+
+.emailContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 19px;
+}
+
+.emailContainer input {
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2px solid rgb(255, 255, 255, 0.5);
+    outline: none;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Sanchez', serif;
+    letter-spacing: 3px;
+}
+
+.emailContainer input:focus {
+    border-color: #fff;
+    transform-origin: 50%;
+    width: 100%;
+}
+
+.emailArrow {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.emailArrow:active {
+    color: #777;
+}
+
+.FooterContents {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footerRow h2 {
+    color: aliceblue;
+    font-family: 'Sanchez', serif;
+    margin-bottom: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+.footerRow ul li {
+    color: aliceblue;
+    font-family: 'Sanchez', serif;
+    list-style: none;
+    color: rgb(255, 255, 255, 0.5);
+    line-height: 1.9;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.footerRow ul li:hover {
+    color: aliceblue;
+}
+.footerIcon
+{
+    margin-right: 10px;
+}
+.footerRow p
+{
+ color: rgb(255, 255, 255, 0.5);
+}
+.Date
+{
+    text-align: right;
+    color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.footerBar
+{
+
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px 50px;
+    gap: 20px;
+    color: rgb(255, 255, 255, 0.5);
+    font-family: 'Sanchez', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socialIcons
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialIcon
+{
+  margin: 0px 20px;
+  cursor: pointer; 
+  transition: 0.4s;
+  color: #777;
+}
+.socialIcon:hover
+{
+    color: #ffff;
+}

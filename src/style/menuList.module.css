@@ -1,0 +1,54 @@
+.MenuTable {
+    max-width: 100%;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Sanchez', serif;
+    ;
+}
+
+.MenuHead {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.085);
+    border-left: 1px solid rgba(0, 0, 0, 0.085);
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+
+.MenuHead img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.price {
+
+    color: rgb(144, 93, 57, 0.9);
+    font-weight: bolder;
+    padding-left: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.085);
+    border-right: 1px solid rgba(0, 0, 0, 0.085);
+    border-top: 1px solid rgba(0, 0, 0, 0.085);
+}
+
+.itemName {
+    color: rgb(144, 93, 57, 0.9);
+    font-weight: bolder;
+}
+
+.description {
+    color: rgb(144, 93, 57, 0.3);
+}
+
+.title {
+    color: rgb(144, 93, 57, 0.9);
+}
+
+@media(max-width:550px){
+    .title{
+        padding: 10px;
+    }
+}

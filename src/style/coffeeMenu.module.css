@@ -1,0 +1,38 @@
+.Title {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: rgb(144, 93, 57, 0.9);
+}
+
+.presentation {
+    text-align: center;
+    font-family: 'Sanchez', serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: rgba(71, 52, 38, 0.9);
+    position: relative;
+    bottom: 40px;
+}
+
+.BeanContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media(max-width:680px) {
+    .Title {
+        font-size: 35px;
+    }
+
+    .presentation {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+        padding: 20px 0px;
+    }
+}

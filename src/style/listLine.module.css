@@ -1,0 +1,23 @@
+.lineContainer {
+    margin-right: 15px;
+}
+
+.lineShort {
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: rgb(77, 53, 36, 0.5);
+}
+
+.lineLong {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(77, 53, 36, 0.5);
+}
+
+
+@media(max-width:776px) {
+    .lineContainer {
+        display: none;
+    }
+}

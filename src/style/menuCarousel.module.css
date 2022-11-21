@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.CarouselRectangle {
+    margin-top: 90px;
+    width: 650px;
+    height: 310px;
+    border: 2px solid rgb(144, 93, 57, 0.9);
+}
+
+.carouselContents {
+    height: 300px;
+    font-family: 'Sanchez', serif;
+    max-width: 650px;
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    right: 30px;
+    background: linear-gradient(rgb(145, 95, 60), rgb(101, 63, 36));
+}
+
+.carouselContents h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+.carouselContents p {
+    width: 70%;
+    font-size: 19px;
+    line-height: 1.9rem;
+    transition: 1s;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    color: rgb(240, 248, 255, 0.5);
+    font-weight: bold;
+}
+
+.cup {
+    max-width: 500px;
+    position: absolute;
+    bottom: -20%;
+    right: 80%;
+}
+
+.Controllers {
+
+    width: 300px;
+    position: relative;
+    bottom: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cercle {
+    position: absolute;
+    margin: 0px 15px;
+    width: 15px;
+    cursor: pointer;
+    height: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid none;
+    position: relative;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(211, 158, 120, 0.5);
+    border-radius: 100%;
+    position: absolute;
+}
+
+/* //media query */
+@media(max-width:543px) {
+    .cup {
+        display: none;
+    }
+
+    .CarouselRectangle {
+        width: 450px;
+        position: relative;
+        left: 40px;
+    }
+
+}

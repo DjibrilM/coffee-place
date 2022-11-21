@@ -1,0 +1,71 @@
+.Team {
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+
+.Heading {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(129, 88, 61);
+    font-weight: 100;
+}
+
+.Introduction {
+    text-align: center;
+    font-family: 'Sanchez', serif;
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgb(94, 66, 47);
+}
+
+.TeamContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.MemberCercle {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: auto;
+
+}
+
+.member {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 0px 20px;
+    font-family: 'Sanchez', serif;
+    ;
+}
+
+.member h2 {
+    color: rgb(94, 66, 47);
+
+}
+
+.member p {
+    position: relative;
+    bottom: 10px;
+}
+
+.MemberCercle img {
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+    border-radius: 100%;
+}

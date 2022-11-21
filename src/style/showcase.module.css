@@ -1,0 +1,314 @@
+.showcase {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url("../assets//images/showcase.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    border-bottom: 0.5px solid rgb(255, 255, 255, 0.1);
+}
+
+.headerContainer {
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 2px;
+    display: flex;
+}
+
+.headerList ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.headerList ul li {
+    color: rgb(216, 221, 225);
+}
+
+.headerList ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(169, 170, 170);
+    text-decoration: none;
+}
+
+.programTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.socialLinks ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.socialLinks ul li a {
+    color: rgb(169, 170, 170);
+    font-size: 14px;
+}
+
+
+.navigationContainer {
+    width: 75%;
+    margin: auto;
+    gap: 100px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.logoContainer h1 {
+    font-weight: 100;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.navigation ul {
+    display: flex;
+    width: 100%;
+}
+
+.navigation ul li {
+    color: aliceblue;
+    margin: 0px 30px;
+    padding-top: 20px;
+}
+
+.navigation ul li a {
+    color: rgb(154, 154, 154);
+    font-family: 'Sanchez', serif;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navigation ul p {
+    color: #fff;
+    margin-left: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.showcaseContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.showcaseLogo img {
+    width: 200px;
+}
+
+.showcaseTitle {
+    position: relative;
+    bottom: 15px;
+    font-family: 'Sanchez', serif;
+    color: #fff;
+    letter-spacing: 10px;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.centerBtn {
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(153, 95, 54);
+    font-family: 'Sanchez', serif;
+    letter-spacing: 3px;
+}
+
+.centerBtn:active {
+    background-color: rgb(85, 54, 32);
+}
+
+.showcaseMoto {
+    color: white;
+    font-size: 14px;
+    font-family: 'Sanchez', serif;
+    letter-spacing: 8px;
+}
+
+
+.MenuBar {
+    display: none;
+    position: relative;
+    right: 10px;
+}
+
+.menuIcon {
+    color: #fff;
+    cursor: pointer;
+}
+
+.closeBtn {
+    display: none;
+    position: relative;
+    left: 270px;
+    width: 30px;
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.closeIcon {
+    color: #fff;
+    font-size: 15px;
+}
+
+.Backdrop {
+    transition: 0.5s;
+    width: 0%;
+    height: 100vh;
+    position: fixed;
+    z-index: 500;
+    backdrop-filter: blur(10px);
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+/* //media query */
+@media(max-width:1013px) {
+    .closeBtn {
+        display: flex;
+    }
+
+    .MenuBar {
+        display: block;
+    }
+
+    .header {
+        width: 100%;
+        height: 55px;
+    }
+
+    .headerContainer {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .headerList ul li {
+        color: rgb(216, 221, 225);
+        font-size: 12px;
+    }
+
+    .programTime {
+        font-size: 13px;
+    }
+
+
+    .navigationContainer {
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logoContainer {
+        padding-left: 20px;
+    }
+
+
+    .navigation {
+        transition: 0.7s;
+        display: block;
+        background-color: #333;
+        position: fixed;
+        left: -400px;
+        height: 120vh;
+        padding-top: 20px;
+        width: 320px;
+        top: -20px;
+        bottom: 0;
+        z-index: 1000;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .navigation ul li {
+        width: 100%;
+        color: aliceblue;
+
+    }
+
+    .navigation ul p {
+        color: #fff;
+        margin-left: 20px;
+        padding-top: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+}
+
+
+@media(max-width:657px) {
+
+    .headerList ul {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        right: 40px;
+    }
+
+    .headerList ul li {
+        color: rgb(216, 221, 225);
+    }
+
+
+    .socialLinks ul {
+        display: none;
+    }
+
+    .showcaseTitle {
+        font-size: 12px;
+        line-height: 2rem;
+    }
+
+    .showcaseMoto {
+        color: white;
+        font-size: 12px;
+        font-family: 'Sanchez', serif;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+}

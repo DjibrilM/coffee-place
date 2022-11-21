@@ -1,0 +1,101 @@
+.Event {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../assets//images//1320960.jpg");
+    margin: 40px 0px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Heading {
+    font-family: 'Great Vibes', cursive;
+    color: aliceblue;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+
+.Desc {
+    position: relative;
+    color: aliceblue;
+    letter-spacing: 5px;
+    bottom: 60px;
+    font-family: 'Sanchez', serif;
+}
+
+.contentsContainer {
+    position: relative;
+    bottom: 50px;
+    color: aliceblue;
+    font-family: 'Sanchez', serif;
+    ;
+}
+
+.contentsIntroduction {
+    font-size: 18px;
+}
+
+.eventTime {
+    display: flex;
+    gap: 50px;
+}
+
+.Indicator p {
+    color: aliceblue;
+    font-family: 'Sanchez', serif;
+    text-transform: uppercase;
+}
+
+.timeIndicator {
+    height: 70px;
+    width: 60px;
+    color: aliceblue;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sanchez', serif;
+}
+
+.Hours {
+    height: 70px;
+    width: 70px;
+    color: aliceblue;
+    color: rgb(60, 44, 33);
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sanchez', serif;
+}
+
+.Hours h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.timeIndicator h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    background-color: rgb(95, 69, 52);
+    border: none;
+    color: #fff;
+    font-family: 'Sanchez', serif;
+    letter-spacing: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.submitBtn:active {
+    background-color: rgb(44, 33, 25);
+    ;
+}

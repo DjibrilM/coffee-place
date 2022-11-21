@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.beanImage img {
+    width: 80px;
+}
+
+.rightBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.leftBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    gap: 5px;
+}
+
+.LeftBeanLongBar {
+    width: 50px;
+    height: 3px;
+    background: rgb(153, 95, 54, 0.5);
+    justify-self: baseline;
+    position: absolute;
+    right: 0;
+}
+
+.LeftBeanShortBar {
+    width: 100px;
+    height: 3px;
+    background: rgb(153, 95, 54, 0.5);
+    margin: 10px 0px;
+}
+
+.RightbeanLongBar {
+    width: 100px;
+    height: 3px;
+    background: rgb(153, 95, 54, 0.5);
+}
+
+.RightbeanShort {
+    width: 50px;
+    height: 3px;
+    background: rgb(153, 95, 54, 0.5);
+    position: relative;
+    bottom: 2px;
+}

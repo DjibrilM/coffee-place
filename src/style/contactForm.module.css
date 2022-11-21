@@ -1,0 +1,112 @@
+.ContactForm {
+    width: 100%;
+    padding-bottom: 40px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, 0.8)), url("../assets/images/showcaseBackgound.jpeg");
+    background-size: cover;
+    background-position: right;
+    margin: 40px 0px;
+}
+
+.introduction {
+    padding-top: 100px;
+}
+
+.introduction h1:nth-child(1) {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.introduction h1:nth-child(2) {
+    color: white;
+    font-family: 'Sanchez', serif;
+    ;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.introduction img {
+    width: 30px;
+    margin: auto;
+}
+
+.introductionImage {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+    justify-content: center;
+}
+
+.FormContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 500px;
+}
+
+.inputContainer input {
+    font-family: 'Sanchez', serif;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 0.5px solid rgb(186, 186, 186);
+}
+
+.inputContainer i {
+    position: relative;
+    right: 20px;
+    color: rgb(186, 186, 186);
+    ;
+}
+
+.inputContainer input:focus {
+    border-color: white;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: 'Sanchez', serif;
+    letter-spacing: 3px;
+    background-color: rgb(144, 93, 57);
+    color: white;
+    border: none;
+}
+
+@media(max-width:1087px) {
+    .form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputContainer {
+        position: relative;
+        right: 10px;
+        width: 100%;
+        font-size: 12px;
+    }
+}
