@@ -10,4 +10,4 @@ In the project directory, you can run:
 
 ### `npm start` for startting the project locally 
 
-### Or use the following link for testing the deployed version  [here](https://github.com/facebook/create-react-app).
+### Or use the following link for testing the deployed version  [https://coffee-place-eight.vercel.app/](https://github.com/facebook/create-react-app).
