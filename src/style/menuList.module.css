@@ -3,8 +3,8 @@
     margin: auto;
     margin-top: 50px;
     font-family: 'Sanchez', serif;
-    ;
 }
+
 
 .MenuHead {
     display: flex;
@@ -46,13 +46,17 @@
     color: rgb(144, 93, 57, 0.9);
 }
 
+
+
 @media(max-width:550px){
     .title{
         padding: 10px;
     }
-        
-    .MenuTable:{
-     width:100%;
-    }
-        
+}
+
+@media(max-width:814px){
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Sanchez', serif;
 }
