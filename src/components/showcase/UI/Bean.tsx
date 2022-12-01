@@ -2,6 +2,7 @@ import React from "react";
 import classes from "../../../style/bean.module.css"
 import beanPng from "../../../assets/images/coffee-beans .png"
 
+
 const Bean = () => {
     return <div className={classes.container}>
         <div className={classes.rightBar}>
