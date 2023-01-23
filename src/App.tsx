@@ -11,6 +11,7 @@ import Events from './components/showcase/events/Events';
 import Team from './components/showcase/team/Team';
 import Footer from './components/showcase/Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
