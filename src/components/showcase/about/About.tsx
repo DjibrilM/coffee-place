@@ -7,6 +7,7 @@ import { RiDoubleQuotesR } from "react-icons/ri"
 import ListLine from "../UI/ListLine";
 
 
+
 const About = () => {
     return <section>
         <div className={classes.titleContainer}>
